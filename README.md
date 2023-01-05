@@ -9,7 +9,7 @@ En esta última acción se ve involucadro el maletín, por lo que el usuario deb
 
 ## Instalación
 
-1. En la carpeta ElectroLab/app/src encontramos todo lo necesario a copiar en un proyecto en blanco (empty) en la aplicación de escritorio Android Studio, en la misma ruta que en este repositorio (NewProyect/app/src). De forma que para instalar la app en el teléfono solo deberá conectar el teléfono al ordenador y seguir los pasos indicados por Android Studio para subir la aplicación a su móvil.
+1. En la carpeta ElectroLab/app/src encontramos todo lo necesario a copiar en un proyecto en blanco (empty) en la aplicación de escritorio Android Studio, en la misma ruta que en este repositorio (*/app/src). De forma que para instalar la app en el teléfono solo deberá conectar el teléfono al ordenador y seguir los pasos indicados por Android Studio para subir la aplicación a su móvil.
 2. En la carpeta Arduino encontramos el script  necesario a instalar el maletín.
 
 ## Detalles técnicos
