@@ -21,13 +21,13 @@ La aplicación móvil ha sido implementada en Android Studio y está formada por
   <img src="https://github.com/LorenaM22/LabyElectrolab/blob/main/images/Imagen6.png" />
 </p>
 
-La segunda actividad está relacionada con la comunicación entre la aplicación y el maletín. Como se ha comentado con anterioridad estos se comunican entre sí para ejecutar diversos ejemplos desde la aplicación en el maletín para ampliar el conocimiento del usuario. Antes se indicaba que se emplearía tanto el Bluetooth como los infrarrojos, pero finalmente solo se ha implementado la comunicación vía Bluetooth ya que esta va a ser una comunicación unidireccional (de la aplicación al maletín). Como es necesario, antes de empezar la comunicación ambos elementos deben vincularse el uno con el otro, por eso se encuentra esta segunda actividad en la aplicación. En ella se muestra la lista de dispositivos con Bluetooth activado para que el usuario escoja el Bluetooth del maletín. 
+La segunda actividad (Bluetooth) está relacionada con la comunicación entre la aplicación y el maletín. Como se ha comentado con anterioridad estos se comunican entre sí para ejecutar diversos ejemplos desde la aplicación en el maletín para ampliar el conocimiento del usuario. Antes se indicaba que se emplearía tanto el Bluetooth como los infrarrojos, pero finalmente solo se ha implementado la comunicación vía Bluetooth ya que esta va a ser una comunicación unidireccional (de la aplicación al maletín). Como es necesario, antes de empezar la comunicación ambos elementos deben vincularse el uno con el otro, por eso se encuentra esta segunda actividad en la aplicación. En ella se muestra la lista de dispositivos con Bluetooth activado para que el usuario escoja el Bluetooth del maletín. 
 
  <p align="center">
   <img src="https://github.com/LorenaM22/LabyElectrolab/blob/main/images/Imagen5.png" />
 </p>
  
-Una vez que estén los vinculados, la aplicación ejecutará la tercera actividad de la aplicación que realmente es la actividad principal, ya que en ella se desarrolla la mayor parte de las acciones. Lo primero que realiza esta actividad es activar la cámara del móvil y a continuación superpone a ella un rectángulo negro dentro del cual se debe situar el maletín.
+Una vez que estén los vinculados, la aplicación ejecutará la tercera actividad (MainActivity) de la aplicación que realmente es la actividad principal, ya que en ella se desarrolla la mayor parte de las acciones. Lo primero que realiza esta actividad es activar la cámara del móvil y a continuación superpone a ella un rectángulo negro dentro del cual se debe situar el maletín.
  
  <p align="center">
   <img src="https://github.com/LorenaM22/LabyElectrolab/blob/main/images/Imagen4.png" />
