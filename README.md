@@ -42,6 +42,7 @@ De esta forma, cuando el usuario situé el maletín con las pegatinas verdes en 
 
  
 Una vez haya aparecido esta plantilla el usuario puede interaccionar con ella pulsando los diversos elementos, así Laby (que se encuentra en la parte superior de la pantalla) modificará su dialogo para aportar información del elemento seleccionado. Además, el usuario podrá pulsar el botón “Ir a ejemplo” (que aparecerá en la pantalla junto con el botón “Atrás” a la vez que lo haga la plantilla) para ejecutar un ejemplo de uso de ese elemento en el maletín.
+Como se acaba de mencionar, en la pantalla se encuentra el botón “Atrás” que permite al usuario deseleccionar los elementos de la plantilla. Finalmente, se debe saber que si se deja de enfocar al maletín con la cámara la plantilla dejará de aparecer y por tanto no se podrá interaccionar más con ella hasta que se vuelva a enfocar al maletín y se detecten las esquinas verdes de este.
  	  
  <p align="center">
   <img src="https://github.com/LorenaM22/LabyElectrolab/blob/main/images/Imagen2.png" />
@@ -50,7 +51,6 @@ Una vez haya aparecido esta plantilla el usuario puede interaccionar con ella pu
 </p>
 
     
-Como se acaba de mencionar, en la pantalla se encuentra el botón “Atrás” que permite al usuario deseleccionar los elementos de la plantilla. Finalmente, se debe saber que si se deja de enfocar al maletín con la cámara la plantilla dejará de aparecer y por tanto no se podrá interaccionar más con ella hasta que se vuelva a enfocar al maletín y se detecten las esquinas verdes de este.
 Por otro lado, en el maletín ElectroLab se ha activado el módulo Bluetooth para poder recibir los comandos correspondientes enviados por la aplicación de Android Studio una vez se selecciona un elemento y se pulsa el botón “Ir al ejemplo” de la aplicación móvil. Los comandos enviados están formados por una letra en mayúsculas, las cuales en el maletín ElectroLab se reciben como el carácter ASCII correspondiente. Por lo tanto, una vez recibida, se realizará la ejecución correspondiente. En la siguiente tabla se muestra la letra, junto con el carácter ASCII asociado y la tarea que realiza en el maletín.
 |LETRA | ASCII	TAREA|
 |------|------------|
