@@ -60,4 +60,17 @@ Por otro lado, en el maletín ElectroLab se ha activado el módulo Bluetooth par
 |“S”| 83	Movimiento del servo a distintos ángulos |
 |“M”| 77	Muestra de diversas figuras en la matriz de LEDs|
 
+# Extra
+
+## Aprendiendo Arduino
+
+En la carpeta Arduino/Learning se encuentra los sketch de los ejemplos empleados en la ejecución de la aplicación. Estos permiten aprender difernetes formas de programar los elementos en el maletín. En la siguiente tabla se detalla cada uno de los ejemplos:
+
+|Nombre | Descripción|
+|------|------------|
+|led_example.ino|	Parpadeo de dos LEDs|
+|temp_hum_lcd_example.ino|	Muestra de mensajes por pantalla, activación de sensor de temperatura y humedad y muestra de lo obtenido por el sensor en la pantalla|
+|buzzer_example.ino|	Reproducción del sonido de la sintonía de Mario Bros|
+|servo_example.ino|	Movimiento del servo a distintos ángulos |
+|matrix_example.ino|	Muestra de diversas figuras en la matriz de LEDs|
 
