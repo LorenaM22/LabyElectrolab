@@ -10,7 +10,7 @@ DHT dht(DHTPin, DHTTYPE);
 
 void setup() {
 
-  lcd.begin();
+  lcd.init();
   lcd.backlight();
   lcd.setCursor(0,0);
   dht.begin();
